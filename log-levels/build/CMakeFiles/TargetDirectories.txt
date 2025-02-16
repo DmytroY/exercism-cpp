@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/log-levels/build/CMakeFiles/log-levels.dir
+C:/Users/YAKOVD/Exercism/cpp/log-levels/build/CMakeFiles/test_log-levels.dir
+C:/Users/YAKOVD/Exercism/cpp/log-levels/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/log-levels/build/CMakeFiles/rebuild_cache.dir
