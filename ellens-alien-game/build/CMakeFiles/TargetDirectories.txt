@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/ellens-alien-game/build/CMakeFiles/ellens-alien-game.dir
+C:/Users/YAKOVD/Exercism/cpp/ellens-alien-game/build/CMakeFiles/test_ellens-alien-game.dir
+C:/Users/YAKOVD/Exercism/cpp/ellens-alien-game/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/ellens-alien-game/build/CMakeFiles/rebuild_cache.dir
