@@ -1,0 +1,3 @@
+C:\Users\YAKOVD\cmake\cmake-3.31.4\bin\cmake.exe -E rm -f CMakeFiles\making-the-grade.dir/objects.a
+C:\DY\Programs\MinGW-w64\w64devkit\bin\ar.exe qc CMakeFiles\making-the-grade.dir/objects.a @CMakeFiles\making-the-grade.dir\objects1.rsp
+C:\DY\Programs\MinGW-w64\w64devkit\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\making-the-grade.dir/objects.a -Wl,--no-whole-archive -o making-the-grade.exe -Wl,--out-implib,libmaking-the-grade.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\making-the-grade.dir\linkLibs.rsp

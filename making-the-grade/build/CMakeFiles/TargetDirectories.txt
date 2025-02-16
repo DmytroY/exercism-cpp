@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/making-the-grade/build/CMakeFiles/making-the-grade.dir
+C:/Users/YAKOVD/Exercism/cpp/making-the-grade/build/CMakeFiles/test_making-the-grade.dir
+C:/Users/YAKOVD/Exercism/cpp/making-the-grade/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/making-the-grade/build/CMakeFiles/rebuild_cache.dir
