@@ -1,0 +1,3 @@
+C:\Users\YAKOVD\cmake\cmake-3.31.4\bin\cmake.exe -E rm -f CMakeFiles\freelancer-rates.dir/objects.a
+C:\DY\Programs\MinGW-w64\w64devkit\bin\ar.exe qc CMakeFiles\freelancer-rates.dir/objects.a @CMakeFiles\freelancer-rates.dir\objects1.rsp
+C:\DY\Programs\MinGW-w64\w64devkit\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\freelancer-rates.dir/objects.a -Wl,--no-whole-archive -o freelancer-rates.exe -Wl,--out-implib,libfreelancer-rates.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\freelancer-rates.dir\linkLibs.rsp
