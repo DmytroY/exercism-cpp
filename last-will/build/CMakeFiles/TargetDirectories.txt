@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/last-will/build/CMakeFiles/last-will.dir
+C:/Users/YAKOVD/Exercism/cpp/last-will/build/CMakeFiles/test_last-will.dir
+C:/Users/YAKOVD/Exercism/cpp/last-will/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/last-will/build/CMakeFiles/rebuild_cache.dir
