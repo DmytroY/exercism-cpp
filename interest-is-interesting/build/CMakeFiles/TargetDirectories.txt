@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/interest-is-interesting/build/CMakeFiles/interest-is-interesting.dir
+C:/Users/YAKOVD/Exercism/cpp/interest-is-interesting/build/CMakeFiles/test_interest-is-interesting.dir
+C:/Users/YAKOVD/Exercism/cpp/interest-is-interesting/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/interest-is-interesting/build/CMakeFiles/rebuild_cache.dir
