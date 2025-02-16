@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/troll-the-trolls/build/CMakeFiles/troll-the-trolls.dir
+C:/Users/YAKOVD/Exercism/cpp/troll-the-trolls/build/CMakeFiles/test_troll-the-trolls.dir
+C:/Users/YAKOVD/Exercism/cpp/troll-the-trolls/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/troll-the-trolls/build/CMakeFiles/rebuild_cache.dir
