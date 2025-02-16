@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/vehicle-purchase/build/CMakeFiles/vehicle-purchase.dir
+C:/Users/YAKOVD/Exercism/cpp/vehicle-purchase/build/CMakeFiles/test_vehicle-purchase.dir
+C:/Users/YAKOVD/Exercism/cpp/vehicle-purchase/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/vehicle-purchase/build/CMakeFiles/rebuild_cache.dir

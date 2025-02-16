@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 
 namespace log_line {
     std::string message(std::string line) {
