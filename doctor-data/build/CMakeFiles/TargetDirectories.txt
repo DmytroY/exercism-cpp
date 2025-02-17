@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/doctor-data/build/CMakeFiles/doctor-data.dir
+C:/Users/YAKOVD/Exercism/cpp/doctor-data/build/CMakeFiles/test_doctor-data.dir
+C:/Users/YAKOVD/Exercism/cpp/doctor-data/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/doctor-data/build/CMakeFiles/rebuild_cache.dir
