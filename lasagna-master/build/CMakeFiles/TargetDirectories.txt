@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/lasagna-master/build/CMakeFiles/lasagna-master.dir
+C:/Users/YAKOVD/Exercism/cpp/lasagna-master/build/CMakeFiles/test_lasagna-master.dir
+C:/Users/YAKOVD/Exercism/cpp/lasagna-master/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/lasagna-master/build/CMakeFiles/rebuild_cache.dir
