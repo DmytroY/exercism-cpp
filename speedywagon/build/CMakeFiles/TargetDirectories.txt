@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/speedywagon/build/CMakeFiles/speedywagon.dir
+C:/Users/YAKOVD/Exercism/cpp/speedywagon/build/CMakeFiles/test_speedywagon.dir
+C:/Users/YAKOVD/Exercism/cpp/speedywagon/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/speedywagon/build/CMakeFiles/rebuild_cache.dir
