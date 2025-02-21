@@ -25,7 +25,6 @@ TEST_CASE("Give a new artifact to a human", "[task_2]") {
     REQUIRE(lanfeust.possession->name == pommel);
 }
 
-#if defined(EXERCISM_RUN_ALL_TESTS)
 TEST_CASE("Exchange artifact with another human", "[task_3]") {
     human zoltan{};
     std::string worldstone_shard{"Soulstone"};
@@ -37,7 +36,7 @@ TEST_CASE("Exchange artifact with another human", "[task_3]") {
     REQUIRE(zoltan.possession == nullptr);
     REQUIRE(tal_rasha.possession->name == worldstone_shard);
 }
-
+#if defined(EXERCISM_RUN_ALL_TESTS)
 TEST_CASE("Manifest power in a human", "[task_4]") {
     human cian{};
     std::string gift_of_night{"heal"};

@@ -6,32 +6,26 @@
 namespace troy {
 
 struct artifact {
-    // constructors needed (until C++20)
     artifact(std::string name) : name(name) {}
     std::string name;
 };
 
 struct power {
-    // constructors needed (until C++20)
     power(std::string effect) : effect(effect) {}
     std::string effect;
 };
 
-// Implement a human struct (or class) that has a smart-pointer to an artifact as possession member variable.
 struct human {
-    
-    std::string name;
     std::unique_ptr<artifact> possession;
     std::unique_ptr<power> own_power;
-    std::shared_ptr<power> influenced_by;
-
-    human() {
-        possession = nullptr;
-        own_power = nullptr;
-        influenced_by = nullptr;
-    }
+    std::shared_ptr<power> influenced_by;   
+    human(): possession(nullptr), own_power(nullptr), influenced_by(nullptr) {}
 };
 
-void give_new_artifact(human& humanObj, const std::string& artifactName);
+void give_new_artifact(human& ref2human, std::string artifact_name);
+
+// exchange_artifacts(uchiha.possession, uzumaki.possession);
+void exchange_artifacts(std::unique_ptr<artifact>& possession1, std::unique_ptr<artifact>& possession2);
+void manifest_power(human human, std::string power);
 
 }  // namespace troy
