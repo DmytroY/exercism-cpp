@@ -34,7 +34,6 @@ namespace troy {
 
     int power_intensity(human& human) {
         return human.own_power.use_count();
-
     }
 
 }  // namespace troy
