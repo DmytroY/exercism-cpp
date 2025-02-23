@@ -6,6 +6,7 @@
 void int_by_ref(int& ref) { ref = 1;}
 void int_by_ptr(int* ptr) { *ptr = 2;}
 
+template <arr_size N>;
 void arr_by_ref(int (&arr)[]){ 
     arr[0] = 55;
     std::cout << "Array sige is " << sizeof(arr) << std::endl;
