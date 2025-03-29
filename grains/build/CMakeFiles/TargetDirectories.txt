@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/grains/build/CMakeFiles/grains.dir
+C:/Users/YAKOVD/Exercism/cpp/grains/build/CMakeFiles/test_grains.dir
+C:/Users/YAKOVD/Exercism/cpp/grains/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/grains/build/CMakeFiles/rebuild_cache.dir
