@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/pangram/build/CMakeFiles/pangram.dir
+C:/Users/YAKOVD/Exercism/cpp/pangram/build/CMakeFiles/test_pangram.dir
+C:/Users/YAKOVD/Exercism/cpp/pangram/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/pangram/build/CMakeFiles/rebuild_cache.dir

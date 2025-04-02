@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9ab52e76dc72ddc9d660434536c93968 CMakeFiles/test_pangram
