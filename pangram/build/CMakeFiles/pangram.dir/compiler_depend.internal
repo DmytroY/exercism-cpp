@@ -51,6 +51,7 @@ CMakeFiles/pangram.dir/pangram.cpp.obj
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h
+ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/clocale
@@ -207,6 +208,7 @@ CMakeFiles/pangram.dir/pangram_test.cpp.obj
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h
+ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cassert
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno

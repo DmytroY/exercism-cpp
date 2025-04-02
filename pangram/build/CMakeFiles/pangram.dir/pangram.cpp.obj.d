@@ -106,4 +106,5 @@ CMakeFiles/pangram.dir/pangram.cpp.obj: \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/node_handle.h \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_set.h \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_multiset.h \
- C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/erase_if.h
+ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/erase_if.h \
+ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset

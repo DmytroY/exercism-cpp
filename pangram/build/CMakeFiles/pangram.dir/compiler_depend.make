@@ -50,6 +50,7 @@ CMakeFiles/pangram.dir/pangram.cpp.obj: C:/Users/YAKOVD/Exercism/cpp/pangram/pan
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/clocale \
@@ -205,6 +206,7 @@ CMakeFiles/pangram.dir/pangram_test.cpp.obj: C:/Users/YAKOVD/Exercism/cpp/pangra
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cassert \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
@@ -838,8 +840,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cpp_type_traits.h:
 
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/type_traits.h:
-
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cxxabi_forced.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/regex:
@@ -883,6 +883,8 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pop
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/localefwd.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/move.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/functional:
 
@@ -983,6 +985,8 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/string_conversions.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/type_traits.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/windef.h:
 
@@ -1517,8 +1521,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_multimap.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_stack.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream:
 

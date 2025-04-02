@@ -107,6 +107,7 @@ CMakeFiles/pangram.dir/pangram_test.cpp.obj: \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_set.h \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_multiset.h \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/erase_if.h \
+ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bitset \
  C:\Users\YAKOVD\Exercism\cpp\pangram\test/catch.hpp \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint \
  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
