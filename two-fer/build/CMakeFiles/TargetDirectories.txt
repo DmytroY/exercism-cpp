@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/two-fer/build/CMakeFiles/two-fer.dir
+C:/Users/YAKOVD/Exercism/cpp/two-fer/build/CMakeFiles/test_two-fer.dir
+C:/Users/YAKOVD/Exercism/cpp/two-fer/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/two-fer/build/CMakeFiles/rebuild_cache.dir
