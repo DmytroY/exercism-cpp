@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/grade-school/build/CMakeFiles/grade-school.dir
+C:/Users/YAKOVD/Exercism/cpp/grade-school/build/CMakeFiles/test_grade-school.dir
+C:/Users/YAKOVD/Exercism/cpp/grade-school/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/grade-school/build/CMakeFiles/rebuild_cache.dir
