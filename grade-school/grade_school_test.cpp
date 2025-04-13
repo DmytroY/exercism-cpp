@@ -35,7 +35,7 @@ TEST_CASE("adding_more_students_to_the_same_grade_adds_them_to_the_roster") {
     const map<int, vector<string>> expected{{2, {"Blair", "James", "Paul"}}};
     REQUIRE(expected == actual);
 }
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 TEST_CASE("adding_students_to_different_grades_adds_them_to_the_roster") {
     grade_school::school school_;
     school_.add("Chelsea", 3);
@@ -86,5 +86,5 @@ TEST_CASE("checking_a_grade_should_not_change_the_roster") {
     school_.grade(1);
     REQUIRE(school_.roster().empty());
 }
-
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif

@@ -15,7 +15,7 @@ namespace grade_school {
         public:
             std::map<int, std::vector<std::string>> roster() const;
             void add(std::string, int);
-            // std::vector<std::string> grade(int);
+            std::vector<std::string> grade(int) const;
     };
 
 }  // namespace grade_school
