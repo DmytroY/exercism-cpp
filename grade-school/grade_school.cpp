@@ -6,7 +6,7 @@ namespace grade_school {
 
 // TODO: add your solution here
 
-std::map<int, std::vector<std::string>> school::roster() const { return _roster; }
+map_roster school::roster() const { return _roster; }
 
 void school::add(std::string name, int grade) {
     if(school::_roster.find(grade) != school::_roster.end()) {
@@ -17,7 +17,7 @@ void school::add(std::string name, int grade) {
     }
 }
 
-std::vector<std::string> school::grade(int grade) const {
+vector_str school::grade(int grade) const {
     try {
         return school::_roster.at(grade);
     } catch(const std::out_of_range& e){

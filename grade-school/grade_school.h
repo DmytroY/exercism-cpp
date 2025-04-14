@@ -8,14 +8,17 @@
 namespace grade_school {
 
 // TODO: add your solution here
+    using map_roster = std::map<int, std::vector<std::string>>;
+    using vector_str = std::vector<std::string>;
+
     class school {
         private:
-            std::map<int, std::vector<std::string>> _roster;
+            map_roster _roster;
 
         public:
-            std::map<int, std::vector<std::string>> roster() const;
+            map_roster roster() const;
             void add(std::string, int);
-            std::vector<std::string> grade(int) const;
+            vector_str grade(int) const;
     };
 
 }  // namespace grade_school
