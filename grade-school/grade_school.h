@@ -11,6 +11,7 @@ namespace grade_school {
     using map_roster = std::map<int, std::vector<std::string>>;
     using vector_str = std::vector<std::string>;
 
+    // declare class school
     class school {
         private:
             map_roster _roster;

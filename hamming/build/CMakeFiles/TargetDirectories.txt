@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/hamming/build/CMakeFiles/hamming.dir
+C:/Users/YAKOVD/Exercism/cpp/hamming/build/CMakeFiles/test_hamming.dir
+C:/Users/YAKOVD/Exercism/cpp/hamming/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/hamming/build/CMakeFiles/rebuild_cache.dir
