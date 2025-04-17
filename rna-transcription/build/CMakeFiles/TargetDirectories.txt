@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/rna-transcription/build/CMakeFiles/rna-transcription.dir
+C:/Users/YAKOVD/Exercism/cpp/rna-transcription/build/CMakeFiles/test_rna-transcription.dir
+C:/Users/YAKOVD/Exercism/cpp/rna-transcription/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/rna-transcription/build/CMakeFiles/rebuild_cache.dir
