@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/queen-attack/build/CMakeFiles/queen-attack.dir
+C:/Users/YAKOVD/Exercism/cpp/queen-attack/build/CMakeFiles/test_queen-attack.dir
+C:/Users/YAKOVD/Exercism/cpp/queen-attack/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/queen-attack/build/CMakeFiles/rebuild_cache.dir
