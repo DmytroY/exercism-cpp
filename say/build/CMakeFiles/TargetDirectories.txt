@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/say/build/CMakeFiles/say.dir
+C:/Users/YAKOVD/Exercism/cpp/say/build/CMakeFiles/test_say.dir
+C:/Users/YAKOVD/Exercism/cpp/say/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/say/build/CMakeFiles/rebuild_cache.dir
