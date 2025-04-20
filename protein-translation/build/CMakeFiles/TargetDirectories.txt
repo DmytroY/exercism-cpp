@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/protein-translation/build/CMakeFiles/protein-translation.dir
+C:/Users/YAKOVD/Exercism/cpp/protein-translation/build/CMakeFiles/test_protein-translation.dir
+C:/Users/YAKOVD/Exercism/cpp/protein-translation/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/protein-translation/build/CMakeFiles/rebuild_cache.dir

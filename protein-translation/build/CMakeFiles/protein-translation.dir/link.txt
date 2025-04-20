@@ -1,0 +1,3 @@
+C:\Users\YAKOVD\cmake\cmake-3.31.4\bin\cmake.exe -E rm -f CMakeFiles\protein-translation.dir/objects.a
+C:\DY\Programs\MinGW-w64\w64devkit\bin\ar.exe qc CMakeFiles\protein-translation.dir/objects.a @CMakeFiles\protein-translation.dir\objects1.rsp
+C:\DY\Programs\MinGW-w64\w64devkit\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\protein-translation.dir/objects.a -Wl,--no-whole-archive -o protein-translation.exe -Wl,--out-implib,libprotein-translation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\protein-translation.dir\linkLibs.rsp
