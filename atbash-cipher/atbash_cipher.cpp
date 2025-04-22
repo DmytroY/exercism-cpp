@@ -16,8 +16,9 @@ namespace atbash_cipher {
         for(char c : text){
             if(isalnum(c)){
                 if(isalpha(c)) {
-                    int asciiCodedValue = 219 - (int)tolower(c); // code a->z, z->a
-                    c = (char)asciiCodedValue;
+                    // int asciiCodedValue = 219 - (int)tolower(c); // code a->z, z->a
+                    // c = (char)asciiCodedValue;
+                    c = 'z' - ((int)tolower(c) - 'a');
                 }
                 result.push_back(c);
             }
