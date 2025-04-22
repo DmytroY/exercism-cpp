@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/atbash-cipher/build/CMakeFiles/atbash-cipher.dir
+C:/Users/YAKOVD/Exercism/cpp/atbash-cipher/build/CMakeFiles/test_atbash-cipher.dir
+C:/Users/YAKOVD/Exercism/cpp/atbash-cipher/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/atbash-cipher/build/CMakeFiles/rebuild_cache.dir
