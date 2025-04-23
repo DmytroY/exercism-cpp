@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/trinary/build/CMakeFiles/trinary.dir
+C:/Users/YAKOVD/Exercism/cpp/trinary/build/CMakeFiles/test_trinary.dir
+C:/Users/YAKOVD/Exercism/cpp/trinary/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/trinary/build/CMakeFiles/rebuild_cache.dir
