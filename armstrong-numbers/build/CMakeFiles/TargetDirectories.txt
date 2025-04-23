@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/armstrong-numbers/build/CMakeFiles/armstrong-numbers.dir
+C:/Users/YAKOVD/Exercism/cpp/armstrong-numbers/build/CMakeFiles/test_armstrong-numbers.dir
+C:/Users/YAKOVD/Exercism/cpp/armstrong-numbers/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/armstrong-numbers/build/CMakeFiles/rebuild_cache.dir
