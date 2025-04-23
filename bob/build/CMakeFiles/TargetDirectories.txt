@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/bob/build/CMakeFiles/bob.dir
+C:/Users/YAKOVD/Exercism/cpp/bob/build/CMakeFiles/test_bob.dir
+C:/Users/YAKOVD/Exercism/cpp/bob/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/bob/build/CMakeFiles/rebuild_cache.dir
