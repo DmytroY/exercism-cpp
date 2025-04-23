@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/kindergarten-garden/build/CMakeFiles/kindergarten-garden.dir
+C:/Users/YAKOVD/Exercism/cpp/kindergarten-garden/build/CMakeFiles/test_kindergarten-garden.dir
+C:/Users/YAKOVD/Exercism/cpp/kindergarten-garden/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/kindergarten-garden/build/CMakeFiles/rebuild_cache.dir

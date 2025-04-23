@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+df3c0d8cba59c93db9c78424f6467e26 CMakeFiles/test_kindergarten-garden
