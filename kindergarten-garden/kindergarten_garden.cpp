@@ -18,7 +18,6 @@ namespace kindergarten_garden {
         return kindergarten_garden::Plants::error;
     }
 
-    //plants("VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV", "Charlie")
     std::array<kindergarten_garden::Plants, 4> plants(std::string garden, std::string name){
         auto it = std::find(names.begin(), names.end(), name);
         int i = std::distance(names.begin(), it);

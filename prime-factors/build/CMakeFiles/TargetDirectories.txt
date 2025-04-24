@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/prime-factors/build/CMakeFiles/prime-factors.dir
+C:/Users/YAKOVD/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors.dir
+C:/Users/YAKOVD/Exercism/cpp/prime-factors/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/prime-factors/build/CMakeFiles/rebuild_cache.dir
