@@ -43,6 +43,7 @@ CMakeFiles/prime-factors.dir/prime_factors.cpp.obj: C:/Users/YAKOVD/Exercism/cpp
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/range_access.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/refwrap.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/specfun.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_abs.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algobase.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
@@ -66,6 +67,7 @@ CMakeFiles/prime-factors.dir/prime_factors.cpp.obj: C:/Users/YAKOVD/Exercism/cpp
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/clocale \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cmath \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/concepts \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstddef \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdio \
@@ -85,6 +87,7 @@ CMakeFiles/prime-factors.dir/prime_factors.cpp.obj: C:/Users/YAKOVD/Exercism/cpp
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iosfwd \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/new \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ostream \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/pstl_config.h \
@@ -94,6 +97,18 @@ CMakeFiles/prime-factors.dir/prime_factors.cpp.obj: C:/Users/YAKOVD/Exercism/cpp
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string_view \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/system_error \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/bessel_function.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/beta_function.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/ell_integral.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/exp_integral.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/gamma.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/hypergeometric.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/legendre_function.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_hermite.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/riemann_zeta.tcc \
+  C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/special_function_util.h \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits \
   C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo \
@@ -129,6 +144,7 @@ CMakeFiles/prime-factors.dir/prime_factors.cpp.obj: C:/Users/YAKOVD/Exercism/cpp
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/limits.h \
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/locale.h \
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/malloc.h \
+  C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/math.h \
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/process.h \
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/pthread.h \
   C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -869,6 +885,8 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/invoke.h:
 
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/specfun.h:
+
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/charconv.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h:
@@ -888,8 +906,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cpp_type_traits.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cxxabi_forced.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/riemann_zeta.tcc:
 
@@ -1041,7 +1057,11 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc:
 
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno:
+
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/clocale:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cmath:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/concepts:
 
@@ -1083,6 +1103,14 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream:
 
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstring:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits:
+
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h:
@@ -1113,9 +1141,41 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/system_error:
 
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_laguerre.tcc:
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/bessel_function.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/beta_function.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/exp_integral.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/ell_integral.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/hypergeometric.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/legendre_function.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_scanner.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/modified_bessel_func.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_hermite.tcc:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_laguerre.tcc:
+
+C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/stringapiset.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/jobapi.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
+
+C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/special_function_util.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo:
 
@@ -1229,23 +1289,9 @@ C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/exp_integral.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/ell_integral.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
-
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/signal.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstring:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits:
-
-C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/stdlib.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -1319,8 +1365,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/shared_ptr_base.h:
 
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/specfun.h:
-
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_function.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algo.h:
@@ -1355,8 +1399,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cassert:
 
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cmath:
-
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdint:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/aligned_buffer.h:
@@ -1378,32 +1420,6 @@ C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_numeric_defs.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/random:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/bessel_function.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/beta_function.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/hypergeometric.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/legendre_function.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/regex_scanner.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/modified_bessel_func.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_hermite.tcc:
-
-C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/stringapiset.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/x86_64-w64-mingw32/include/jobapi.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
-
-C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/special_function_util.h:
 
 C:/DY/Programs/MinGW-w64/w64devkit/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/unordered_map:
 
