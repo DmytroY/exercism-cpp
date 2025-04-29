@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/simple-linked-list/build/CMakeFiles/simple-linked-list.dir
+C:/Users/YAKOVD/Exercism/cpp/simple-linked-list/build/CMakeFiles/test_simple-linked-list.dir
+C:/Users/YAKOVD/Exercism/cpp/simple-linked-list/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/simple-linked-list/build/CMakeFiles/rebuild_cache.dir
