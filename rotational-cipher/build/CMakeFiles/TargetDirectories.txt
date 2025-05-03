@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/rotational-cipher/build/CMakeFiles/rotational-cipher.dir
+C:/Users/YAKOVD/Exercism/cpp/rotational-cipher/build/CMakeFiles/test_rotational-cipher.dir
+C:/Users/YAKOVD/Exercism/cpp/rotational-cipher/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/rotational-cipher/build/CMakeFiles/rebuild_cache.dir
