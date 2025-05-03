@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/matching-brackets/build/CMakeFiles/matching-brackets.dir
+C:/Users/YAKOVD/Exercism/cpp/matching-brackets/build/CMakeFiles/test_matching-brackets.dir
+C:/Users/YAKOVD/Exercism/cpp/matching-brackets/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/matching-brackets/build/CMakeFiles/rebuild_cache.dir
