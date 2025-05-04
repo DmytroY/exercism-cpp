@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/luhn/build/CMakeFiles/luhn.dir
+C:/Users/YAKOVD/Exercism/cpp/luhn/build/CMakeFiles/test_luhn.dir
+C:/Users/YAKOVD/Exercism/cpp/luhn/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/luhn/build/CMakeFiles/rebuild_cache.dir
