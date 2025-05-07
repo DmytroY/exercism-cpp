@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/hexadecimal/build/CMakeFiles/hexadecimal.dir
+C:/Users/YAKOVD/Exercism/cpp/hexadecimal/build/CMakeFiles/test_hexadecimal.dir
+C:/Users/YAKOVD/Exercism/cpp/hexadecimal/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/hexadecimal/build/CMakeFiles/rebuild_cache.dir
