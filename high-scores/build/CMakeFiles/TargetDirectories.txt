@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/high-scores/build/CMakeFiles/high-scores.dir
+C:/Users/YAKOVD/Exercism/cpp/high-scores/build/CMakeFiles/test_high-scores.dir
+C:/Users/YAKOVD/Exercism/cpp/high-scores/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/high-scores/build/CMakeFiles/rebuild_cache.dir

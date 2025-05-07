@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/darts/build/CMakeFiles/darts.dir
+C:/Users/YAKOVD/Exercism/cpp/darts/build/CMakeFiles/test_darts.dir
+C:/Users/YAKOVD/Exercism/cpp/darts/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/darts/build/CMakeFiles/rebuild_cache.dir
