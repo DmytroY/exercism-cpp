@@ -25,8 +25,7 @@ namespace chicken_coop {
 //     return sum;
 // }
 
-// === variant 3. 
-
+// === variant 3. by deducting binary progression members
 // find maximum value of binary progression (1, 2, 4, 8, 16 ...) which is still <= n
 int max_pow2k (int n){
     if(n < 1) return 0;

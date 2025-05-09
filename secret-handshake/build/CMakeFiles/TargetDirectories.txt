@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/secret-handshake/build/CMakeFiles/secret-handshake.dir
+C:/Users/YAKOVD/Exercism/cpp/secret-handshake/build/CMakeFiles/test_secret-handshake.dir
+C:/Users/YAKOVD/Exercism/cpp/secret-handshake/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/secret-handshake/build/CMakeFiles/rebuild_cache.dir
