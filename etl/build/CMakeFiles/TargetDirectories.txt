@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/etl/build/CMakeFiles/etl.dir
+C:/Users/YAKOVD/Exercism/cpp/etl/build/CMakeFiles/test_etl.dir
+C:/Users/YAKOVD/Exercism/cpp/etl/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/etl/build/CMakeFiles/rebuild_cache.dir
