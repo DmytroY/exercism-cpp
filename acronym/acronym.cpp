@@ -3,6 +3,7 @@
 namespace acronym {
 
 // TODO: add your solution here
+
 std::string acronym(std::string text) {
     std::string acr{};
     bool first{true};
@@ -18,4 +19,5 @@ std::string acronym(std::string text) {
     }
     return acr;
 }
+
 }  // namespace acronym
