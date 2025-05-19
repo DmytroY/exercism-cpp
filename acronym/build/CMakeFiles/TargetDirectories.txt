@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/acronym/build/CMakeFiles/acronym.dir
+C:/Users/YAKOVD/Exercism/cpp/acronym/build/CMakeFiles/test_acronym.dir
+C:/Users/YAKOVD/Exercism/cpp/acronym/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/acronym/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:\Users\YAKOVD\cmake\cmake-3.31.4\bin\cmake.exe -E rm -f CMakeFiles\acronym.dir/objects.a
+C:\DY\Programs\MinGW-w64\w64devkit\bin\ar.exe qc CMakeFiles\acronym.dir/objects.a @CMakeFiles\acronym.dir\objects1.rsp
+C:\DY\Programs\MinGW-w64\w64devkit\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\acronym.dir/objects.a -Wl,--no-whole-archive -o acronym.exe -Wl,--out-implib,libacronym.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\acronym.dir\linkLibs.rsp
