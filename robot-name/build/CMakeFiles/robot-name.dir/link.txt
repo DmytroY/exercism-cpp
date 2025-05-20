@@ -1,0 +1,3 @@
+C:\Users\YAKOVD\cmake\cmake-3.31.4\bin\cmake.exe -E rm -f CMakeFiles\robot-name.dir/objects.a
+C:\DY\Programs\MinGW-w64\w64devkit\bin\ar.exe qc CMakeFiles\robot-name.dir/objects.a @CMakeFiles\robot-name.dir\objects1.rsp
+C:\DY\Programs\MinGW-w64\w64devkit\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\robot-name.dir/objects.a -Wl,--no-whole-archive -o robot-name.exe -Wl,--out-implib,librobot-name.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\robot-name.dir\linkLibs.rsp

@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/robot-name/build/CMakeFiles/robot-name.dir
+C:/Users/YAKOVD/Exercism/cpp/robot-name/build/CMakeFiles/test_robot-name.dir
+C:/Users/YAKOVD/Exercism/cpp/robot-name/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/robot-name/build/CMakeFiles/rebuild_cache.dir
