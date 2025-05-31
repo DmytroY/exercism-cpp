@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/clock/build/CMakeFiles/clock.dir
+C:/Users/YAKOVD/Exercism/cpp/clock/build/CMakeFiles/test_clock.dir
+C:/Users/YAKOVD/Exercism/cpp/clock/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/clock/build/CMakeFiles/rebuild_cache.dir
