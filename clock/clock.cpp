@@ -36,5 +36,5 @@ bool clock::operator!=(const clock& other_c) const {
     return _minute != other_c._minute ||_hour != other_c._hour;
 }
 
-clock clock::plus(int i){ return clock::at(_hour, _minute + i); }
+clock clock::plus(int i) const { return clock::at(_hour, _minute + i); }
 }  // namespace date_independent
