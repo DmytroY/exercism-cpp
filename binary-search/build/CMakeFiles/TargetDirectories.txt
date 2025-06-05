@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/binary-search/build/CMakeFiles/binary-search.dir
+C:/Users/YAKOVD/Exercism/cpp/binary-search/build/CMakeFiles/test_binary-search.dir
+C:/Users/YAKOVD/Exercism/cpp/binary-search/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/binary-search/build/CMakeFiles/rebuild_cache.dir
