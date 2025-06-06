@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/phone-number/build/CMakeFiles/phone-number.dir
+C:/Users/YAKOVD/Exercism/cpp/phone-number/build/CMakeFiles/test_phone-number.dir
+C:/Users/YAKOVD/Exercism/cpp/phone-number/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/phone-number/build/CMakeFiles/rebuild_cache.dir
