@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/series/build/CMakeFiles/series.dir
+C:/Users/YAKOVD/Exercism/cpp/series/build/CMakeFiles/test_series.dir
+C:/Users/YAKOVD/Exercism/cpp/series/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/series/build/CMakeFiles/rebuild_cache.dir
