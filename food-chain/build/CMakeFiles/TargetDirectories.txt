@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/food-chain/build/CMakeFiles/food-chain.dir
+C:/Users/YAKOVD/Exercism/cpp/food-chain/build/CMakeFiles/test_food-chain.dir
+C:/Users/YAKOVD/Exercism/cpp/food-chain/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/food-chain/build/CMakeFiles/rebuild_cache.dir
