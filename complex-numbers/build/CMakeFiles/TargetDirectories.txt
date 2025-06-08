@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/complex-numbers/build/CMakeFiles/complex-numbers.dir
+C:/Users/YAKOVD/Exercism/cpp/complex-numbers/build/CMakeFiles/test_complex-numbers.dir
+C:/Users/YAKOVD/Exercism/cpp/complex-numbers/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/complex-numbers/build/CMakeFiles/rebuild_cache.dir
