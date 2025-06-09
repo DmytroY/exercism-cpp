@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/roman-numerals/build/CMakeFiles/roman-numerals.dir
+C:/Users/YAKOVD/Exercism/cpp/roman-numerals/build/CMakeFiles/test_roman-numerals.dir
+C:/Users/YAKOVD/Exercism/cpp/roman-numerals/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/roman-numerals/build/CMakeFiles/rebuild_cache.dir
