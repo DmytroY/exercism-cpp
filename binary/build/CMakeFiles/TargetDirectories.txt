@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/binary/build/CMakeFiles/binary.dir
+C:/Users/YAKOVD/Exercism/cpp/binary/build/CMakeFiles/test_binary.dir
+C:/Users/YAKOVD/Exercism/cpp/binary/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/binary/build/CMakeFiles/rebuild_cache.dir
