@@ -1,0 +1,4 @@
+C:/Users/YAKOVD/Exercism/cpp/alphametics/build/CMakeFiles/alphametics.dir
+C:/Users/YAKOVD/Exercism/cpp/alphametics/build/CMakeFiles/test_alphametics.dir
+C:/Users/YAKOVD/Exercism/cpp/alphametics/build/CMakeFiles/edit_cache.dir
+C:/Users/YAKOVD/Exercism/cpp/alphametics/build/CMakeFiles/rebuild_cache.dir
