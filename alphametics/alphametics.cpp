@@ -19,68 +19,62 @@ std::vector<std::string> split(std::string text, const std::string& separator){
     return result;
 }
 
-bool verify(const std::vector<std::string>& terms, const std::string& sum, const std::map<char, int>& my_map){
-    // should not be empty
-    if(my_map.empty()) return false;
+bool verify(const std::map<char, int>& solution, const std::map<char, long long>& weights){
+    long long checksum{0};
+    for(auto kv : solution){
+        checksum += (kv.second * weights.at(kv.first));
+    }
+    return checksum == 0;
+}
 
-    // values should be unique
-    std::set<int> seen;
-    for(const auto& item : my_map){
-        // set.insert() returns pair where second part is insertion success indicator
-        if(seen.insert(item.second).second == false) return false;
+bool backtrack(std::map<char, int>& solution, std::vector<bool>& used,const std::map<char, long long>& weights, const std::set<char>& first){
+    if (solution.size() == weights.size() && verify(solution, weights) ) {
+        return true;
     }
 
-    int correct_sum{0};
-    for(unsigned i = 0; i < sum.length(); i++){
-            correct_sum +=my_map.at(sum[sum.length() - 1 - i]) * pow(10, i);
-    }
-    if(correct_sum == 0) return false;
-
-    int calculated_sum{0};
-    for(std::string term : terms){
-        for(unsigned i = 0; i < term.length(); i++){
-            calculated_sum +=my_map.at(term[term.length() - 1 - i]) * pow(10, i);
+    for(auto kv : weights){
+        if(solution.find(kv.first) == solution.end()){
+            for(int i = 0; i <= 9; i++ ){
+                if(first.find(kv.first) != first.end() && i == 0) continue;
+                if(used[i] == false){
+                    solution[kv.first] = i;
+                    used[i] = true;
+                    if(backtrack(solution, used, weights, first)) return true;
+                    solution.erase(kv.first);
+                    used[i] = false;
+                }
+            }
         }
     }
-    return calculated_sum == correct_sum;
+    return false;
 }
 
 std::optional<std::map<char, int>> solve(std::string text){
-    std::vector<std::string> left_rigth = split(text, " == ");
-    std::vector<std::string> terms = split(left_rigth[0], " + "); // vector with terms
-    std::string sum = left_rigth[1]; // sum
+    
+    std::map<char, int> solution;  // current variant of map
+    std::map<char, long long> weights; // weigths precalculater for every character, depend on positions and count
+    std::vector<std::string> words; // vector of TERMS and SUM as last worint; 
+    std::vector<bool> used(10, false); // which digit we already used
+    std::set<char> first; // set of first chars. leading digit of a multi-digit number must not be zero
 
-    // initialize resulting map
-    std::map<char, int> my_map;
-    for(char c : text){ if(isalpha(c))my_map[c] = 0; }
- 
-    // leading digit of multidigit number must not be zero. 
-    // there is a set of chars we never shoul assign 0
-    std::set<char> forbidden;
-    for(std::string term : terms) {
-        if(term.size() > 1) forbidden.insert(term[0]);
-    }
-    forbidden.insert(sum[0]);
+    auto left_right = split(text, " == "); //left_rigth[0] are TERMS, left_rigth[1] is SUM
+    words = split(left_right[0], " + ");
+    words.push_back(left_right[1]); // last word is SUM
 
-    // n is decimal representation of all my_map values. Assign every decimal digit as my_map values
-    for(unsigned long long n = 0; n < pow(10, my_map.size()); n++){
-        unsigned long long t = n; // 
-        for(auto item : my_map){
-            int value = t - (t/10)*10;
+    for(auto word : words){
+        if (word.size() > 1){first.insert(word.at(0));} // insert to set of first chars
 
-            // do not assign 0 to forbidden char, assing 1 instead
-            if(value == 0 && forbidden.find(item.first) != forbidden.end()) {
-                my_map[item.first] = 1;
-            } else {
-                my_map[item.first] = value;
-            }
-            t /= 10; // for the next place in number
+        long long d{1}; // weigths for TERMS will be positive
+        if(word == left_right[1]) d = -1;  // weights for SUM will be negative
+        for(auto it = word.rbegin(); it < word.rend(); it++) {
+            weights[*it] += d; // summarize weights of letters in different words
+            d *= 10; // weights for letters from rigth to left are: 1, 10, 100, 1000 .....
         }
-
-        // if we found correct combination
-        if(verify(terms, sum, my_map)) return my_map;
     }
-    return std::nullopt;
+
+    backtrack(solution, used, weights, first);
+    if(solution.size() == 0) return std::nullopt;
+    return solution;
 }
 
 }  // namespace alphametics

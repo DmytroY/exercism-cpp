@@ -11,10 +11,10 @@ void myFunc2(int* i) {
 int main() {
     int a = 10;
     myFunc1(a);
-    std::cout << a << std::endl;
+    std::cout << a << std::endl; // 777
 
     int b{20};
     myFunc2(&b);
-    std::cout << b << std::endl;
+    std::cout << b << std::endl; // 999
     return 0;
 }
