@@ -10,7 +10,7 @@ std::vector<std::string> split(std::string text, const std::string& separator){
         auto pos = text.find(separator);
         if(pos != std::string::npos) {
             result.push_back(text.substr(0, pos));
-            text = text.substr(pos + separator.length(), text.length() - pos);
+            text = text.substr(pos + separator.length(), text.length() - (pos + separator.length()));
         } else {
             result.push_back(text.substr(0, text.length()));
             break;
@@ -19,44 +19,7 @@ std::vector<std::string> split(std::string text, const std::string& separator){
     return result;
 }
 
-bool verify(const std::map<char, int>& solution, const std::map<char, long long>& weights){
-    long long checksum{0};
-    for(auto kv : solution){
-        checksum += (kv.second * weights.at(kv.first));
-    }
-    return checksum == 0;
-}
-
-bool backtrack(std::map<char, int>& solution, std::vector<bool>& used,const std::map<char, long long>& weights, const std::set<char>& first){
-    if (solution.size() == weights.size() && verify(solution, weights) ) {
-        return true;
-    }
-
-    for(auto kv : weights){
-        if(solution.find(kv.first) == solution.end()){
-            for(int i = 0; i <= 9; i++ ){
-                if(first.find(kv.first) != first.end() && i == 0) continue;
-                if(used[i] == false){
-                    solution[kv.first] = i;
-                    used[i] = true;
-                    if(backtrack(solution, used, weights, first)) return true;
-                    solution.erase(kv.first);
-                    used[i] = false;
-                }
-            }
-        }
-    }
-    return false;
-}
-
-std::optional<std::map<char, int>> solve(std::string text){
-    
-    std::map<char, int> solution;  // current variant of map
-    std::map<char, long long> weights; // weigths precalculater for every character, depend on positions and count
-    std::vector<std::string> words; // vector of TERMS and SUM as last worint; 
-    std::vector<bool> used(10, false); // which digit we already used
-    std::set<char> first; // set of first chars. leading digit of a multi-digit number must not be zero
-
+Solver::Solver(std::string& text) : used(10, false){
     auto left_right = split(text, " == "); //left_rigth[0] are TERMS, left_rigth[1] is SUM
     words = split(left_right[0], " + ");
     words.push_back(left_right[1]); // last word is SUM
@@ -66,15 +29,52 @@ std::optional<std::map<char, int>> solve(std::string text){
 
         long long d{1}; // weigths for TERMS will be positive
         if(word == left_right[1]) d = -1;  // weights for SUM will be negative
-        for(auto it = word.rbegin(); it < word.rend(); it++) {
+        for(auto it = word.rbegin(); it != word.rend(); it++) {
             weights[*it] += d; // summarize weights of letters in different words
             d *= 10; // weights for letters from rigth to left are: 1, 10, 100, 1000 .....
         }
     }
 
-    backtrack(solution, used, weights, first);
-    if(solution.size() == 0) return std::nullopt;
-    return solution;
+    // create vector of letters sorted by desc of abs weights
+    // so we will start to solve with most valuable letters first
+    // it should optimize solution time
+    std::vector<std::pair<char, int>> letters_pairs(weights.begin(), weights.end());
+    std::sort(letters_pairs.begin(), letters_pairs.end(), [] (auto a, auto b) {return abs(a.second) > abs(b.second);});
+    for(auto kv : letters_pairs) {letters.push_back(kv.first);} //
+
+    size = weights.size();
+}
+
+bool Solver::backtrack(int pos, int sum){
+    // basic case
+    if(pos == size){
+        if(sum == 0) return true;
+        return false;
+    }
+
+    // dive to the next level
+    for(int i = 0; i < 10; i++){
+        if(used[i]) continue; // every digit can be used only once
+        if(i == 0 && first.find(letters[pos]) != first.end()) continue; // leading 0 is not allowed
+
+        // ok, now let's try it
+        solution[letters[pos]] = i;
+        used[i] = true;
+        sum += weights[letters[pos]] * i; // calculate checksumm on the fly
+        if(backtrack(pos + 1, sum)) return true; // recursive dive to the next level
+        // solution is not fit - we should revert our last changes
+        solution.erase(letters[pos]);
+        used[i] = false;
+        sum -= weights[letters[pos]] * i;
+    }
+
+    return false;
+}
+
+std::optional<std::unordered_map<char, int>> solve(std::string text){
+    Solver solver(text);
+    if(solver.backtrack()) return solver.solution;
+    return std::nullopt;
 }
 
 }  // namespace alphametics

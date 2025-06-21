@@ -42,6 +42,7 @@ class SolutionFinder {
                 }
             }
         }
+        
         // Improve runtime by precomputing the multiplier for each letter.
         //
         // Each multiplier is the sum of 10**position of the letter counted from
