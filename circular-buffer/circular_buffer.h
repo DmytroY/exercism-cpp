@@ -8,10 +8,7 @@ namespace circular_buffer {
 template <typename T>
 class circular_buffer{
     private:
-        int head;
-        int tail;
-        int size;
-        int used;
+        int head, tail, size, used;
         std::vector<T> buffer;
 
     public:
@@ -32,16 +29,18 @@ class circular_buffer{
             return value;
         }
 
-        void clear(){if(used) read();}
+        void clear() {
+            head = 0;
+            tail = -1;
+            used = 0;
+        }
 
         void overwrite(T data) {
             if(used == size){
                 buffer[head] = data;
                 head = (head + 1) % size;
                 tail = (tail + 1) % size;                
-            } else {
-                write(data);
-            };        
+            } else { write(data); };        
         }
 };
 
