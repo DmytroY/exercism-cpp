@@ -38,8 +38,7 @@ class circular_buffer{
         void overwrite(T data) {
             if(used == size){
                 buffer[head] = data;
-                head = (head + 1) % size;
-                tail = (tail + 1) % size;                
+                head = (head + 1) % size;            
             } else { write(data); };        
         }
 };
