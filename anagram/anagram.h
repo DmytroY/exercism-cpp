@@ -8,11 +8,12 @@ namespace anagram {
 
 // TODO: add your solution here
 std::string lowerit(std::string s);
-std::string sortit(std::string s);
+unsigned hashit(std::string s);
 
 class anagram{
     private:
-        std::string _sorted, _word;
+        unsigned _hash;
+        std::string _word;
 
     public:
         anagram(std::string);

@@ -9,18 +9,21 @@ std::string lowerit(std::string s){
     return s;
 }
 
-std::string lsortit(std::string s){
+unsigned hashit(std::string s){
     s = lowerit(s);
-    std::sort(s.begin(), s.end());
-    return s;
+    unsigned hash;
+    for(char c : s) {
+        hash += c * 1.5;
+    }
+    return hash;
 }
 
-anagram::anagram(std::string word) : _sorted(lsortit(word)), _word(lowerit(word)) { }
+anagram::anagram(std::string word) : _hash(hashit(word)), _word(lowerit(word)) { }
 
 std::set<std::string> anagram::matches(std::set<std::string> candidates){
     std::set<std::string> result;
     for(auto word : candidates){
-        if(lsortit(word) == _sorted && lowerit(word) != _word){
+        if(hashit(word) == _hash && lowerit(word) != _word){
             result.insert(word);
         }
     }
