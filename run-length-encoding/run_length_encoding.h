@@ -3,6 +3,7 @@
 
 namespace run_length_encoding {
 
-    std::string encode(std::string);
+    std::string encode(const std::string&);
+    std::string decode(const std::string&);
 
 }  // namespace run_length_encoding

@@ -32,7 +32,7 @@ TEST_CASE("encode multiple whitespace mixed in string", "[encode]") {
 TEST_CASE("encode lowercase characters", "[encode]") {
     REQUIRE(run_length_encoding::encode("aabbbcccc") == "2a3b4c");
 }
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 TEST_CASE("decode run-length decode a string", "[decode]") {
     REQUIRE(run_length_encoding::decode("") == "");
 }
@@ -58,8 +58,10 @@ TEST_CASE("decode lowercase string", "[decode]") {
     REQUIRE(run_length_encoding::decode("2a3b4c") == "aabbbcccc");
 }
 
+
 TEST_CASE("encode and then decode", "[consistency]") {
     REQUIRE(run_length_encoding::decode(
                 run_length_encoding::encode("zzz ZZ  zZ")) == "zzz ZZ  zZ");
 }
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif
