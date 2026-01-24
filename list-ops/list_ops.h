@@ -34,7 +34,6 @@ inline std::vector<T> concat(const std::vector<std::vector<T>> v){
 inline std::vector<int> filter(const std::vector<int> v, std::function<int(int)> func){
     std::vector<int> result;
     size_t s{0};
-
     for(int item : v){
         if(func(item)){
             s++;
@@ -45,5 +44,43 @@ inline std::vector<int> filter(const std::vector<int> v, std::function<int(int)>
     return result;
 }
 
+inline std::vector<int> map(const std::vector<int> v, std::function<int(int)> func){
+    size_t size = length(v);
+    std::vector<int> result(size);
+    for(size_t i = 0; i < size; i++){
+        result[i] = func(v[i]);
+    }
+    return result;
+}
+
+template <typename T, typename F>
+inline T foldl(const std::vector<T>& v, const T init, F func){
+    size_t size = length(v);
+    T acc{init};
+        for(size_t i = 0; i < size; i++){
+        acc = func(acc, v[i]);
+    }
+    return acc;
+}
+
+template <typename T, typename F>
+inline T foldr(const std::vector<T>& v, T init, F func){
+    size_t size = length(v);
+    T acc{init};
+        for(size_t n = size ; n > 0; n--){
+        acc = func(acc, v[n-1]);
+    }
+    return acc;
+}
+
+template <typename T>
+inline std::vector<T> reverse(std::vector<T>& v){
+    size_t size = length(v);
+    std::vector<T> result(size);
+    for(size_t i = 0; i < size; i++){
+        result[i] = v[size - 1 - i];
+    }
+    return result;
+}
 
 }  // namespace list_ops

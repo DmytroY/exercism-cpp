@@ -102,7 +102,7 @@ TEST_CASE("length: non-empty list", "[d7b8d2d9-2d16-44c4-9a19-6e5f237cb71e]") {
 
     REQUIRE(result == expected);
 }
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 TEST_CASE("map: empty list", "[c0bc8962-30e2-4bec-9ae4-668b8ecd75aa]") {
     std::vector<int> input{};
     auto lambda_func = [](int x) { return x + 1; };
@@ -212,5 +212,5 @@ TEST_CASE("reverse: list of lists is not flattened",
     // REQUIRE({[4, 5, 6], [], [3], [1, 2]} == list_ops::reverse({[1, 2], [3],
     // [], [4, 5, 6]}));
 }
-
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif
