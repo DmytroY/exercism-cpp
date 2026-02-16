@@ -5,7 +5,7 @@
 
 namespace Bankaccount {
 
-    inline std::mutex mtx;
+    
 
     // class Bankaccount
     class Bankaccount {
@@ -14,6 +14,7 @@ namespace Bankaccount {
         bool _is_open{};
         void ensure_open(){ if(!_is_open) throw std::runtime_error("Account is closed"); }
         void ensure_closed(){ if(_is_open) throw std::runtime_error("Account already opened"); }
+        std::mutex _mtx;
 
     public:
         Bankaccount(){
@@ -35,18 +36,16 @@ namespace Bankaccount {
         void deposit(int amt){
             ensure_open();
             if(amt < 0) throw std::runtime_error("Cannot deposite negative");
-            mtx.lock();
+            std::lock_guard<std::mutex> my_guard_lock{_mtx};
             _balance += amt;
-            mtx.unlock();
         }
 
         void withdraw(int amt){
             ensure_open();
             if(amt > _balance) throw std::runtime_error("Cannot withdraw more than deposited");
             if(amt < 0) throw std::runtime_error("Cannot withdraw negative");
-            mtx.lock();
+            std::lock_guard<std::mutex> my_guard_lock{_mtx};
             _balance -= amt;
-            mtx.unlock();
         }
 
         int balance() {
