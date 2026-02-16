@@ -84,6 +84,7 @@ TEST_CASE("Cannot deposit into unopened account",
     REQUIRE_THROWS_AS(account.deposit(50), std::runtime_error);
 }
 
+
 TEST_CASE("Cannot withdraw from closed account",
           "[570dfaa5-0532-4c1f-a7d3-0f65c3265608]") {
     Bankaccount::Bankaccount account{};
@@ -135,7 +136,7 @@ TEST_CASE("Cannot withdraw negative",
     account.deposit(100);
     REQUIRE_THROWS_AS(account.withdraw(-50), std::runtime_error);
 }
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 TEST_CASE("Cannot deposit negative", "[d45df9ea-1db0-47f3-b18c-d365db49d938]") {
     Bankaccount::Bankaccount account;
     account.open();
@@ -165,4 +166,5 @@ TEST_CASE("Can handle concurrent transactions",
 
     REQUIRE(account.balance() == 0);
 }
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif
